@@ -1,0 +1,103 @@
+html, body {
+    background-color: bisque;
+    color: darkblue;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+#navbar {
+    position: fixed;
+    min-width: 200px;
+    top: 0px;
+    width: 250px;
+    height: 100%;   
+}
+
+#navbar ul {
+    height: 85%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#navbar li {
+    color: darkgreen;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    border-top: 1px solid darkslategrey;
+}
+
+#navbar li:last-of-type {
+    border-bottom: 1px solid darkslategrey;
+}
+
+#navbar a {
+    display: block;
+    padding: 10px 25px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#navbar a:hover {
+    background-color: silver;
+    font-weight: bold;
+}
+
+header {
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Tahoma, sans-serif;
+}
+
+#first:hover {
+    background-color: bisque;
+    font-weight: normal;
+    border: none;
+}
+
+header:hover {
+    background-color: silver;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 325px;
+    padding: 25px;
+    margin-bottom: 100px;
+}
+
+section p {
+    font-size: 0.95em;
+    }
+
+section li {
+    padding: auto;
+}
+
+hr {
+    height: 1.5px;
+    border: double black;
+}
+
+code {
+    background-color: lightgoldenrodyellow;
+    color: red;
+    font-weight: bold;
+}
+
+code:hover {
+    border: 1px solid black;
+}
+
+@media (max-width: 1199px) and (min-width: 769px) {
+    #main-doc {
+        width: 100%;
+        height: 100%;
+    }
+}
